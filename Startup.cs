@@ -43,7 +43,7 @@ namespace FundamentoArquitetura
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             #endregion
 
-            #region MultiplasClasses 
+            #region Multiplas Classes 
             services.AddTransient<ServiceA>();
             services.AddTransient<ServiceB>();
             services.AddTransient<ServiceC>();
